@@ -21,7 +21,7 @@ local function getexploit()
 end
 
 
-local Content = 'Someone used Animation Grabber!'
+local Content = ''
 local Embed = {
 			["title"] = "__**New execution.**__",
 			["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,

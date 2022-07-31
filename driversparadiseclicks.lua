@@ -26,7 +26,7 @@ local Embed = {
 			["title"] = "__**New Join.**__",
 			["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,
 			["type"] = "rich",
-			["color"] = tonumber(0xffff00),
+			["color"] = tonumber(0xFFFF00),
 	                ["thumbnail"] = {
 				["url"] = "https://www.roblox.com/asset-thumbnail/image?assetId="..game.PlaceId.."&width=768&height=432"
 			},

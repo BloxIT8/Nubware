@@ -1,5 +1,5 @@
 for i,v in pairs(game.CoreGui:GetChildren()) do
-    if v.Name == "dosage's solaris gui" then
+    if v.Name == "NubWare" then
         v:Destroy()
     end
 end
@@ -23,7 +23,7 @@ local localnm = game.Players.LocalPlayer
 local noclip = false
 -- End of Variables
 
-local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua"))()
+local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxIT8/Nubware/main/lib/gui_lib"))()
 
 
 local win = SolarisLib:New({
